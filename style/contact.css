@@ -1,0 +1,26 @@
+
+.content-container{
+  padding: 0;
+  display: block;
+}
+
+.content-container > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.content-container > div > img{
+  width: 500px;
+  height: auto;
+}
+
+.content-container > div > address{
+  color: var(--text-color2);
+  font-weight: 900;
+  font-size: 1.6em;
+  padding-left: 80px;
+  padding-right: 3px;
+  word-break: break-all;
+}

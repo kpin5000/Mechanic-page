@@ -1,0 +1,39 @@
+
+@media only screen and (max-width: 1122px) {
+  .content-container address > span::before{
+    content: "\a";
+    white-space: pre;
+  }
+
+  .content-container > div{
+    flex-direction: column;
+    padding-top: 25px;
+  }
+
+  .content-container > div > img{
+    max-width: 90%;
+  }
+
+  .content-container > div > address{
+    padding: 2% 5px 10%;
+  }
+
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .content-container > div > address{
+    padding: 10% 5px 20%;
+  }
+
+  .content-container address > span{
+    font-size: 0.7em;
+  }
+}
+
+
+
+
+
+

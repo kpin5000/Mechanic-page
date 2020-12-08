@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1122px) {
+  .content-container{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .service_containers{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 701px){
+  .content-container{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
